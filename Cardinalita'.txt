@@ -1,0 +1,13 @@
+Modello concettuale sulle vendite di un panificio
+
+- customers/sales_order: un customer puo' fare minimo un'acquisto, piu' acquisti possono essere fatti da un customer.
+
+- sales_order/customers: un'ordine appartiene a un cliente e massimo puo' appartenere ad un solo cliente.
+
+- sales_order/sales_order_details: un'ordine puo' contenere un prodotto, piu' prodotti possono essere in un'ordine.
+
+- sales_oder_details/sales_order: una riga dettaglio appartiene a un'ordine, massimo ad un'ordine.
+
+- sales_oder_details/product: un riga dettaglio contiene minimo un prodotto, massimo puo' contenere un prodotto.
+
+- product/sales_oder_details: minimo un prodotto e' contenuto in una riga dettaglio, piu' righe dettaglio possono contenere un prodotto. 
