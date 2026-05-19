@@ -1,0 +1,9 @@
+Modello logico 
+
+- Custormers (Customers_ID, Name, Address)
+
+- Sales_order (Sales_order_ID, Data, Customers_ID FK)
+
+- Sales_order_details (Sales_order_details_ID, Quantity, Date, Sales_order_ID FK, Product_ID FK)
+
+- Product (Product_ID, Category, Price, Name)
